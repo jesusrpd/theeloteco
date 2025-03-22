@@ -1,8 +1,13 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+*{
+  font-family: "Geist", sans-serif;
 }
 
 @theme inline {
@@ -23,4 +28,90 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@theme {
+  --color-red-elote: #9A171C;
+  --color-yellow-elote: #DD9B2A;
+  --color-black-elote: #291F1F;
+}
+
+span {
+  width: 30px;
+  height: 4px;
+  display: block;
+  background: white;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+span:first-child {
+  margin-bottom: 4px;
+}
+
+span:last-child {
+  margin-top: 4px;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+input:checked + label span {
+  opacity: 0;
+  top: 50%;
+}
+
+input:checked + label span:first-child {
+  opacity: 1;
+  transform: rotate(405deg);
+}
+input:checked + label span:last-child {
+  opacity: 1;
+  transform: rotate(-405deg);
+}
+
+input ~ ul {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 3;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  overflow: hidden;
+}
+
+input ~ ul {
+  display: none;
+  text-align: center;
+  right: 20%;
+}
+
+input ~ ul li {
+  list-style-type: none;
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+input ~ ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: block;
+  padding: 30px;
+}
+
+input:checked ~ ul {
+  height: 100%;
+  transition-delay: 0s;
+  display: block;
+}
+
+input:checked ~ ul li {
+  opacity: 1;
+  transition-delay: 0.5s;
 }
