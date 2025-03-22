@@ -3,6 +3,7 @@ import Main from "./components/main";
 import ContactMe from "./components/contactme";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
+import AboutUs from "./components/aboutus";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Main/>
 
         {/* SECTION ABOUT US */}
+        <AboutUs/>
 
         {/* SECTION CONTACT ME */}
         <ContactMe/>
