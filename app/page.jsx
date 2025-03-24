@@ -4,6 +4,7 @@ import ContactMe from "./components/contactme";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
 import AboutUs from "./components/aboutus";
+import Menu from "./components/menu";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         {/* SECTION TOP PRODUCTS */}
 
         {/* SECTION MENÚ */}
+        <Menu/>
 
         {/* SECTION SUSUCRSALES */}
 

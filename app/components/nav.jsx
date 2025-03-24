@@ -16,7 +16,7 @@ export default function Nav() {
             <span></span>
             </label>
 
-            <ul>
+            <ul className="nav-ul">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Sobre Nosotros</a></li>
             <li><a href="#">Top The Elote Co</a></li>
@@ -26,13 +26,13 @@ export default function Nav() {
         </nav>
 
         <nav className="max-sm:hidden flex justify-center sticky items-center">
-            <ul className="flex">
+            <ul className="flex nav-ul">
                 <li className="mx-1 font-bold"><a>Inicio</a></li>
                 <li className="mx-1 font-bold"><a>Sobre nosotros</a></li>
                 <li className="mx-1 font-bold"><a>Servicios</a></li>
             </ul>
             <Image src="/img-mobile/logo.png" width={50} height={50} className="mx-3" alt="logo The Elote Co" />
-            <ul className="flex">
+            <ul className="flex nav-ul">
                 <li className="mx-1 font-bold"><a>Top TehEloteCo</a></li>
                 <li className="mx-1 font-bold"><a>Sucursales</a></li>
                 <li className="mx-1 font-bold"><a>Menú</a></li>
