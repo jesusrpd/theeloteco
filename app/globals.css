@@ -34,6 +34,7 @@ body {
   --color-red-elote: #9A171C;
   --color-yellow-elote: #DD9B2A;
   --color-black-elote: #291F1F;
+  --color-yellow-degree-elote:linear-gradient(96deg, #FFD403 0%, #FE9E03 100%)
 }
 
 .hamburguer-line{
@@ -187,6 +188,41 @@ input:checked ~ .nav-ul li {
     transform: rotate(-360deg);
   }
 } 
+
+.slider{
+  position: relative;
+  width: 100%;
+  height: 370px;
+  overflow: hidden;
+}
+.item{
+  position: absolute;
+  width: 300px;
+  min-height: 200px;
+  text-align: justify;
+  background-image: linear-gradient(96deg, #FFD403 0%, #FE9E03 100%);
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  left: calc(50% - 150px);
+  top: 0;
+}
+#next, #prev{
+  position: absolute;
+  top: 40%;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-size: xxx-large;
+  font-family: monospace;
+  font-weight: bold;
+  left: 400px;
+  cursor: pointer;
+}
+#next{
+  left: unset;
+  right: 400px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
