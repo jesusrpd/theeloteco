@@ -6,6 +6,7 @@ import Nav from "./components/nav";
 import AboutUs from "./components/aboutus";
 import Sucursales from "./components/sucursales";
 import TopProducts from "./components/topproducts";
+import Menu from "./components/menu";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <TopProducts/>
 
         {/* SECTION MENÚ */}
+        <Menu/>
 
         {/* SECTION SUSUCRSALES */}
         <Sucursales/>

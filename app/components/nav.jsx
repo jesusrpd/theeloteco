@@ -16,7 +16,7 @@ export default function Nav() {
             <span className="hamburguer-line"></span>
             </label>
 
-            <ul>
+            <ul className="nav-ul">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Sobre Nosotros</a></li>
             <li><a href="#">Top The Elote Co</a></li>
