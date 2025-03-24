@@ -59,8 +59,8 @@ export default function ContactMe() {
       <section className="mt-10 px-4 lg:px-10">
         <div className="bg-red-elote rounded-3xl pt-5 lg:flex lg:items-center">
           <div className="order-2">
-            <h2 className="text-white text-center text-4xl mb-5 lg:text-left">Contactanos</h2>
-            <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0">Lorem ipsum dolor sit amet consectetur. Ornare porttitor dolor eu mollis sed. Commodo feugiat amet in quis volutpat. Eros pellentesque nibh risus sit nam. </p>
+            <h2 className="text-white text-center text-4xl mb-5 lg:text-left">Vamos Por un Elote a tu Evento, contáctanos</h2>
+            <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0">Lorem ipsum dolor sit amet consectetur. Ornare porgitttitor dolor eu mollis sed. Commodo feugiat amet in quis volutpat. Eros pellentesque nibh risus sit nam. </p>
             <br/>
             <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0">Lorem ipsum dolor sit amet consectetur. Ornare porttitor dolor eu mollis sed. Commodo feugiat amet in quis volutpat. Eros pellentesque nibh risus sit nam. </p>
           </div>

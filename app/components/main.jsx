@@ -22,7 +22,7 @@ export default function Main() {
                 </div>
                 <div className="md:order-1 md:ml-10 lg:ml-20">
                     <h1 className="text-red-700 font-bold text-5xl mb-5 md:text-4xl lg:text-6xl text-center md:text-left lg:mb-10 md:mt-20 lg:mt-0">The Elote Co</h1>
-                    <p className="text-center text-2xl md:w-3/4 md:text-start font-bold text-black-elote px-3 lg:mb-10 md:mb-5">Somos el elote más Monchoso de Nuevo León.</p>
+                    <p className="text-center lg:text-2xl md:w-2/4 md:text-start font-bold text-black-elote px-3 lg:mb-40 md:mb-5">El mejor elote de México es regio y el mejor elote regio lo preparamos nosotros; Vamos Por Un Elote a The Elote Co</p>
                 </div>
             </section>
             <div className="fixed right-2 top-1/4 max-sm:hidden max-lg:hidden">
