@@ -1,7 +1,7 @@
 export default function TopProducts() {
     return(
         <section>
-            <h2 className="text-4xl text-red-elote mt-10 mb-5 font-bold text-center">Top productos</h2>
+            <h2 className="text-4xl text-red-elote mt-10 mb-5 font-bold text-center">Productos Top</h2>
             <div className="w-full flex flex-wrap items-center justify-center gap-3 md:gap-10 lg:gap-x-20">
                 <div className="bg-[url(/img-mobile/top-product-1.png)] bg-cover rounded-2xl card-product relative">
                     <div className="absolute bottom-2 left-2 lg:bottom-6 lg:left-6">
