@@ -85,8 +85,8 @@ export default function ContactMe() {
               <Image src="/img-mobile/banner-evento.png" alt="banner tecate" width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} className="rounded-2xl"/>
             </div>
           </div>
-          <video className="w-11/12 m-auto rounded-2xl border-2 lg:order-3 border-white lg:mr-5" width="320" height="240" controls preload="none">
-          <source src="/videos/eventos.mp4" autoPlay muted type="video/mp4" />
+          <video autoPlay muted loop className="w-11/12 md:w-1/2 lg:w-2/12  m-auto rounded-2xl border-2 lg:order-3 border-white lg:mr-5" width="320" height="240" controls preload="none">
+          <source src="/videos/eventos.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="p-2 lg:hidden">

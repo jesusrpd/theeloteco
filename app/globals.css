@@ -192,7 +192,7 @@ input:checked ~ .nav-ul li {
 .slider{
   position: relative;
   width: 100%;
-  height: 370px;
+  height: 450px;
   overflow: hidden;
 }
 .item{
@@ -221,8 +221,16 @@ input:checked ~ .nav-ul li {
 }
 #next{
   left: unset;
-  right: 400px;
+  right: 90px;
+  bottom: -120px;
 }
+
+#prev{
+  right: unset;
+  left: 90px;
+  bottom: -120px;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

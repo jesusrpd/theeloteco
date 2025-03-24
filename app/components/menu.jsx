@@ -19,11 +19,12 @@ export default function Menu() {
                         <li>Ruffles</li>
                         <li>Doritos</li>
                         <li>Tostitos</li>
-                        <li>Tocino deshidratado</li>
+                        <li>Tocino Deshidratado</li>
                         <li>Ajonjolí</li>
-                        <li>Queso blanco</li>
+                        <li>Queso Blanco</li>
                         <li>Hot Nuts</li>
-                        <li>Cacahuates</li>
+                        <li>Cacahuate Salado</li>
+                        <li>Limón</li>
                     </ul>
                 </div>
                 <div className="w-1/2 order-1 px-3"> 
@@ -129,7 +130,7 @@ export default function Menu() {
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT CUP CHICO</h5>
-                            <p className="font-medium text-xs">toppings y aderezos a elegir</p>
+                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
                         </div>
                         <div>
                             <p className="font-bold text-xl">$395</p>
@@ -138,7 +139,7 @@ export default function Menu() {
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT BOX CHICO</h5>
-                            <p className="font-medium text-xs">toppings y aderezos a elegir</p>
+                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
                         </div>
                         <div>
                             <p className="font-bold text-xl">$455</p>
@@ -147,7 +148,7 @@ export default function Menu() {
                     <li className="flex">
                          <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT CUP GRANDE</h5>
-                            <p className="font-medium text-xs">toppings y aderezos a elegir</p>
+                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
                         </div>
                         <div>
                              <p className="font-bold text-xl">$765</p>
@@ -156,7 +157,7 @@ export default function Menu() {
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT BOX GRANDE</h5>
-                            <p className="font-medium text-xs">toppings y aderezos a elegir</p>
+                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
                         </div>
                         <div >
                              <p className="font-bold text-xl">$885</p>

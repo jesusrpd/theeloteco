@@ -156,8 +156,8 @@ const Slider = () => {
                 <p className='mt-5'>Excelente variedad de toppings<br/>El sabor inigualable<br/>Recomendado</p>
                 <h3 className='font-bold text-center mt-5'>Daniela Martinez</h3>
             </div>
-            <button id="next" onClick={handlePrev}><span className='w-5 h-5 rounded-full bg-black-elote p-4 text-base'>🠔</span></button>
-            <button id="prev" onClick={handleNext}><span className='w-5 h-5 rounded-full bg-black-elote p-4 text-base'>🠖</span></button>
+            <button id="next" onClick={handleNext}><span className='w-5 h-5 rounded-full bg-black-elote p-4 text-base'>🠖</span></button>
+            <button id="prev" onClick={handlePrev}><span className='w-5 h-5 rounded-full bg-black-elote p-4 text-base'>🠔</span></button>
         </div>
   );
 };
