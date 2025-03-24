@@ -1,6 +1,6 @@
 export default function TopProducts() {
     return(
-        <section>
+        <section className="mb-20">
             <h2 className="text-4xl text-red-elote mt-10 mb-5 font-bold text-center">Top productos</h2>
             <div className="w-full flex flex-wrap items-center justify-center gap-3 md:gap-10 lg:gap-x-20">
                 <div className="bg-[url(/img-mobile/top-product-1.png)] bg-cover rounded-2xl card-product relative">

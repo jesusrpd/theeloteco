@@ -12,7 +12,7 @@ export default function Sucursales() {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14383.969015263167!2d-100.3740966!3d25.6715515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629729449f4be5%3A0x20bd287a74bf5208!2sThe%20Elote%20Co.%20San%20Jer%C3%B3nimo!5e0!3m2!1ses-419!2smx!4v1742690667176!5m2!1ses-419!2smx" allowFullScreen="" loading="lazy" className="w-full h-80" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="text-center">
-                    <h3 className="font-bold text-2xl mb-2 mt-5">Sucursal San Pedro</h3>
+                    <h3 className="font-bold text-2xl mb-2 mt-5">Sucursal San Jerónimo</h3>
                     <p className="font-medium mb-2">Río Tamazunchale 401, Del Valle, 66220 Monterrey, N.L.</p>
                     <Image src="/img-mobile/elote.png" alt="background header" width={100} height={100} className="m-auto"/>
                 </div>
@@ -25,7 +25,7 @@ export default function Sucursales() {
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14383.969015263167!2d-100.3740966!3d25.6715515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bd00779972c9%3A0x58c5178efa1586b3!2sThe%20Elote%20Co%20San%20Pedro!5e0!3m2!1ses-419!2smx!4v1742691658789!5m2!1ses-419!2smx" allowFullScreen="" loading="lazy"  className="w-full h-80" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="text-center">
-                    <h3 className="font-bold text-2xl mb-2 mt-5">Sucursal San Jerónimo</h3>
+                    <h3 className="font-bold text-2xl mb-2 mt-5">Sucursal Pedro</h3>
                     <p className="font-medium mb-2">Río Tamazunchale 401, Del Valle, 66220 Monterrey, N.L.</p>
                     <Image src="/img-mobile/elote.png" alt="background header" width={100} height={100} className="m-auto"/>
                 </div>
