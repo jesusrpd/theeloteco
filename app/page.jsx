@@ -4,6 +4,8 @@ import ContactMe from "./components/contactme";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
 import AboutUs from "./components/aboutus";
+import Sucursales from "./components/sucursales";
+import TopProducts from "./components/topproducts";
 
 export default function Home() {
   return (
@@ -23,10 +25,12 @@ export default function Home() {
         <ContactMe/>
 
         {/* SECTION TOP PRODUCTS */}
+        <TopProducts/>
 
         {/* SECTION MENÚ */}
 
         {/* SECTION SUSUCRSALES */}
+        <Sucursales/>
 
         {/* SECTION FOOTER */}
         <Footer/>

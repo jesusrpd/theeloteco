@@ -11,9 +11,9 @@ export default function Nav() {
 
             <input id="burger" type="checkbox" className="opacity-0"/>
             <label htmlFor="burger">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span className="hamburguer-line"></span>
+            <span className="hamburguer-line"></span>
+            <span className="hamburguer-line"></span>
             </label>
 
             <ul>
@@ -31,7 +31,7 @@ export default function Nav() {
                 <li className="mx-1 font-bold"><a>Sobre nosotros</a></li>
                 <li className="mx-1 font-bold"><a>Servicios</a></li>
             </ul>
-            <Image src="/img-mobile/logo.png" width={50} height={50} className="mx-3" alt="logo The Elote Co" />
+            <Image src="/img-mobile/logo.png" width={70} height={70} className="mx-3 md:mx-2 lg:mx-3 md:relative top-4" alt="logo The Elote Co"/>
             <ul className="flex">
                 <li className="mx-1 font-bold"><a>Top TehEloteCo</a></li>
                 <li className="mx-1 font-bold"><a>Sucursales</a></li>
