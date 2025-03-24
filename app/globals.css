@@ -125,38 +125,6 @@ input:checked ~ .nav-ul li {
   }
 }
 
-.products{
-  overflow: hidden;
-}
-
-.products:before {
-  width: 250px;
-  height: 100px;
-  content: "";
-  z-index: 20;
-}
-
-.products:before {
-  left: 0;
-  background: linear-gradient(261deg, #FFD403 6.59%, #FFD403 92.68%);
-  filter: blur(2px);
-}
-
-.products:after {
-  left: 0;
-  background: linear-gradient(261deg, #FFD403 6.59%, #FFD403 92.68%);
-  filter: blur(2px);
-}
-
-.products:hover .products-slide {
-
-  animation-play-state: paused;
-}
-
-/* .products-slide{
-  animation: 5s slide infinite linear;
-} */
-
 .card-product {
   width: 180px;
   height: 180px;

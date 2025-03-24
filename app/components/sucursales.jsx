@@ -22,7 +22,7 @@ export default function Sucursales() {
                 <div className="md:flex m-auto">
                     <Image src="/img-mobile/sucursal2.png" alt="background header" width={0}
                     height={0} sizes="100vw" style={{ width: "100%", height: "auto" }}/>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14383.969015263167!2d-100.3740966!3d25.6715515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bd00779972c9%3A0x58c5178efa1586b3!2sThe%20Elote%20Co%20San%20Pedro!5e0!3m2!1ses-419!2smx!4v1742691658789!5m2!1ses-419!2smx" allowFullScreen="" loading="lazy"  className="w-full h-80" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14383.969015263167!2d-100.3740966!3d25.6715515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bd00779972c9%3A0x58c5178efa1586b3!2sThe%20Elote%20Co%20San%20Pedro!5e0!3m2!1ses-419!2smx!4v1742691658789!5m2!1ses-419!2smx" allowFullScreen="" loading="lazy"  className="w-full h-80 md:h-96" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="text-center">
                     <h3 className="font-bold text-2xl mb-2 mt-5">Sucursal Pedro</h3>

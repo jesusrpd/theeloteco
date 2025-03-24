@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Menu() {
     return(
-      <section className="bg-[url(/img-mobile/bg.menu.png)] bg-no-repeat bg-cover  text-white md:py-10 py-4">
-        <div className="">
+      <section className="bg-[url(/img-mobile/bg.menu.png)] lg:bg-[url(/img-desktop/bg.menu.png)] bg-no-repeat bg-cover  text-white md:py-10 py-4 mt-10 min-h-screen lg:h-fit lg:bg-contain">
+        <div className="lg:flex lg:flex-col lg:items-center lg:justify-center">
             <div className="text-center">
                 <h3 className="font-bold text-4xl py-4">Menú</h3>
                 <p className="font-medium pb-4 px-1 text-lg">Te aseguramos que nunca has probado nuestra explosión de sabores, Somos The Elote Co</p>
             </div>
-            <div className="md:flex md:w-full lg:px-32 ">
+            <div className="md:flex lg:items-center md:w-full lg:px-32 ">
 
-            <div className="flex px-12 pb-9 md:px-0 md:pl-4 lg:w-1/2">
+            <div className="flex px-12 pb-4 md:px-0 md:pl-4 lg:w-1/2">
                 <div className="w-1/2 order-2 px-1.5 ">
                     <h4 className="font-bold text-xl">TOPPINGS</h4>
                     <ul className="font-medium text-base list-disc">
