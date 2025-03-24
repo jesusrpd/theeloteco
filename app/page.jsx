@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <div>
 
-        <Image src="/icons/whatsapp.svg" alt="background header" width={70} height={70} className="fixed right-3 top-11/12 z-50"/>
+        <a href="https://wa.me/18128879985/?text=¡Hola!%20¿En%20que%20podemos%20ayudarte?" target="_blank">
+          <Image src="/icons/whatsapp.svg" alt="background header" width={70} height={70} className="fixed right-3 top-11/12 z-50"/>
+        </a>
 
         <Nav/>
         

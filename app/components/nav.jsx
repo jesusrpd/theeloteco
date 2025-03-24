@@ -26,17 +26,17 @@ export default function Nav() {
         </nav>
 
         <nav className="max-sm:hidden flex justify-center sticky items-center">
-            <ul className="flex nav-ul">
-                <li className="mx-1 font-bold"><a>Inicio</a></li>
-                <li className="mx-1 font-bold"><a>Sobre nosotros</a></li>
-                <li className="mx-1 font-bold"><a>Servicios</a></li>
+            <ul className="flex">
+                <li className="mx-1 lg:mx-5 font-bold"><a>Inicio</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a>Sobre nosotros</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a>Servicios</a></li>
             </ul>
             <Image src="/img-mobile/logo.png" width={70} height={70} className="mx-3 md:mx-2 lg:mx-3 md:relative top-4" alt="logo The Elote Co"/>
             <ul className="flex">
-                <li className="mx-1 font-bold"><a>Top TehEloteCo</a></li>
-                <li className="mx-1 font-bold"><a>Sucursales</a></li>
-                <li className="mx-1 font-bold"><a>Menú</a></li>
-                <li className="mx-1 font-bold bg-red-elote p-1 rounded-2xl px-4 text-white"><a>Cotizar</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a>Top TehEloteCo</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a>Sucursales</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a>Menú</a></li>
+                <li className="mx-1 lg:mx-5 font-bold bg-red-elote p-1 rounded-2xl px-4 text-white"><a>Cotizar</a></li>
             </ul>
         </nav>
         </>

@@ -6,11 +6,18 @@ export default function Main() {
     return (
         <div className="lg:px-10 md:mx-5">
             <section className="bg-[url(/img-mobile/main-hero.png)] md:bg-[url(/img-desktop/main-hero.png)] w-100 md:w-full h-screen md:h-fit lg:h-screen background-no-repeat bg-no-repeat bg-contain md:bg-contain lg:bg-contain flex flex-col justify-end items-center pb-16 md:justify-center md:items-start lg:pb-0 md:pb-0">
-                <div className="products mb-5 md:order-2">
+                <div className="products mb-5 md:order-2 lg:hidden">
                     <div className="products-slide flex items-center md:ml-10 lg:ml-20">
                         <Image src="/img-mobile/product1.png" alt="background header" width={115} height={155} className="mr-1 md:mx-3"/>
                         <Image src="/img-mobile/product2.png" alt="background header" width={115} height={155} className="mx-1 md:mx-3"/>
                         <Image src="/img-mobile/product3.png" alt= "background header" width={115} height={155} className="ml-1 md:mx-3"/>
+                    </div>
+                </div>
+                <div className="products mb-5 md:order-2 max-lg:hidden">
+                    <div className="products-slide flex items-center md:ml-10 lg:ml-20">
+                        <Image src="/img-mobile/product1.png" alt="background header" width={200} height={200} className="mr-1 md:mx-3"/>
+                        <Image src="/img-mobile/product2.png" alt="background header" width={200} height={200} className="mx-1 md:mx-3"/>
+                        <Image src="/img-mobile/product3.png" alt= "background header" width={200} height={200} className="ml-1 md:mx-3"/>
                     </div>
                 </div>
                 <div className="md:order-1 md:ml-10 lg:ml-20">
