@@ -1,3 +1,4 @@
+import { GoogleTagManager } from '@next/third-parties/google'
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -19,6 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+      <GoogleTagManager gtmId="GTM-5GF7DKFR"/>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

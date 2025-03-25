@@ -3,7 +3,7 @@ import Slider from "./succomponents/slider";
 
 export default function Sucursales() {
     return(
-        <section className="px-3 lg:px-10">
+        <section className="px-3 lg:px-10" id="sucursales">
             <h2 className="text-4xl text-red-elote mt-10 mb-5 font-bold text-center">Sucursales</h2>
             <div className="lg:flex lg:w-full lg:justify-center">
                 <div className="m-auto md:flex lg:mb-5 lg:w-10/12 lg:mx-0 lg:mr-5">

@@ -56,7 +56,7 @@ export default function ContactMe() {
     }
 
     return(
-      <section className="mt-10 px-4 lg:px-10">
+      <section className="mt-10 px-4 lg:px-10" id="contactme">
         <div className="bg-red-elote rounded-3xl pt-5 lg:flex lg:items-center">
           <div className="order-2">
             <h2 className="text-white text-center text-3xl px-2 mb-5 lg:text-left font-bold">Vamos Por un Elote a tu Evento, contáctanos</h2>
@@ -90,7 +90,9 @@ export default function ContactMe() {
           Your browser does not support the video tag.
         </video>
         <div className="p-2 lg:hidden">
+          <a href="https://www.tecatepalnorte.com/lineup" target="_blank">
           <Image src="/img-mobile/banner-evento.png" alt="banner tecate" width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} className="rounded-2xl"/>
+          </a>
         </div>
         </div>
       </section>

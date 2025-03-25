@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
     return(
-        <section className="py-10 px-4 lg:px-0">
+        <section className="py-10 px-4 lg:px-0" id="aboutus">
             <div className="lg:flex justify-center">
                 <div className="text-center items-center md:order-2 lg:w-1/2 md:px-5 lg:pr-20">
                     <h3 className="text-red-elote font-bold text-4xl">Sobre The Elote Co</h3>
