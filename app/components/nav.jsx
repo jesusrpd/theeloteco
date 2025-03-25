@@ -4,10 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Nav() {
-
-    const [open, setOpen] = useState(false);
-
-    const onClickB = () => setOpen(!open)
+    const [isActive, setIsActive] = useState(false);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -18,29 +15,44 @@ export default function Nav() {
                 nav.classList.remove('sticky-class')
             }
         })
+        
+        
     },[])
-
+    useEffect(() => {
+        const menuButton = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menuppal');
+    
+        const toggleMenu = (event) => {
+          event.preventDefault();
+          menuButton.classList.toggle('is-active');
+          menu.classList.toggle('is_active');
+        };
+    
+        menuButton.addEventListener('click', toggleMenu, false);
+    
+        return () => menuButton.removeEventListener('click', toggleMenu);
+      }, []);
+    
     return(
         <>
         <nav className="sticky top-0 py-3 flex justify-around items-center w-full bg-black-elote z-10 md:hidden">
-            <div className="flex items-center">
-            {open?null:<><Image src="/img-mobile/logo.png" width={50} height={50} className="mr-3" alt="logo The Elote Co" /><p className="text-white font-bold text-2xl">The Elote Co.</p></>}
-            
+
+            <div className="flex items-center logo-mobile">
+                <Image src="/img-mobile/logo.png" width={50} height={50} className="mr-3" alt="logo The Elote Co" /><p className="text-white font-bold text-2xl">The Elote Co.</p>
             </div>
 
-            <input id="burger" type="checkbox" className="opacity-0"/>
-            <label htmlFor="burger" onClick={onClickB}>
-            <span className="hamburguer-line"></span>
-            <span className="hamburguer-line"></span>
-            <span className="hamburguer-line"></span>
-            </label>
+            <div className="hamburger" >
+                <div className="_layer -top"></div>
+                <div className="_layer -mid"></div>
+                <div className="_layer -bottom"></div>
+            </div>
 
-            <ul className="nav-ul">
-                <li><a href="#main">Inicio</a></li>
-                <li><a href="#aboutus">Sobre Nosotros</a></li>
-                <li><a href="#topproducts">Top The Elote Co</a></li>
-                <li><a href="#sucursales">Sucursales</a></li>
-                <li><a href="#menu">Menú</a></li>
+            <ul className="menuppal pt-40">
+                <li className="mb-10"><a href="#main" className="text-white text-center font-bold text-2xl">Inicio</a></li>
+                <li className="mb-10"><a href="#aboutus" className="text-white text-center font-bold text-2xl">Sobre Nosotros</a></li>
+                <li className="mb-10"><a href="#topproducts" className="text-white text-center font-bold text-2xl">Top The Elote Co</a></li>
+                <li className="mb-10"><a href="#sucursales" className="text-white text-center font-bold text-2xl">Sucursales</a></li>
+                <li className="mb-10"><a href="#menu" className="text-white text-center font-bold text-2xl">Menú</a></li>
             </ul>
         </nav>
 
