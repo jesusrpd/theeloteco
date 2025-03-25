@@ -1,9 +1,13 @@
 "use client"
 
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Nav() {
+
+    const [open, setOpen] = useState(false);
+
+    const onClickB = () => setOpen(!open)
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -20,12 +24,12 @@ export default function Nav() {
         <>
         <nav className="sticky top-0 py-3 flex justify-around items-center w-full bg-black-elote z-10 md:hidden">
             <div className="flex items-center">
-            <Image src="/img-mobile/logo.png" width={50} height={50} className="mr-3" alt="logo The Elote Co" />
-            <p className="text-white font-bold text-2xl">The Elote Co.</p>
+            {open?null:<><Image src="/img-mobile/logo.png" width={50} height={50} className="mr-3" alt="logo The Elote Co" /><p className="text-white font-bold text-2xl">The Elote Co.</p></>}
+            
             </div>
 
             <input id="burger" type="checkbox" className="opacity-0"/>
-            <label htmlFor="burger">
+            <label htmlFor="burger" onClick={onClickB}>
             <span className="hamburguer-line"></span>
             <span className="hamburguer-line"></span>
             <span className="hamburguer-line"></span>

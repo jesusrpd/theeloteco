@@ -1,5 +1,5 @@
 import { GoogleTagManager } from '@next/third-parties/google'
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Gayathri } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,6 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const gayathri = Gayathri({
+  display: "swap",
+  weight: '400',
+  subsets: ["latin"]
+})
+
 export const metadata = {
   title: "The Elote Co",
   description: "Página de elote",
@@ -22,7 +28,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <GoogleTagManager gtmId="GTM-5GF7DKFR"/>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${gayathri.variable} antialiased`}
       >
         {children}
       </body>

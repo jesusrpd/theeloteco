@@ -1,8 +1,7 @@
-import Image from "next/image";
 
 export default function Menu() {
     return(
-      <section className="bg-[url(/img-mobile/bg.menu.png)] lg:bg-[url(/img-desktop/bg.menu.png)] bg-no-repeat bg-cover  text-white md:py-10 py-4 mt-10 min-h-screen lg:h-fit lg:bg-contain" id="menu">
+      <section className="bg-[url(/img-mobile/bg.menu.png)] lg:bg-[url(/img-desktop/bg.menu.png)] bg-no-repeat bg-cover  text-white md:py-10 py-4 mt-10 lg:bg-cover" id="menu">
         <div className="lg:flex lg:flex-col lg:items-center lg:justify-center">
             <div className="text-center">
                 <h3 className="font-bold text-4xl py-4">Menú</h3>
