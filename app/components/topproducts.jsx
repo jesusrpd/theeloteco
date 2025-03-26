@@ -27,10 +27,10 @@ export default function TopProducts() {
                         <p className="text-white font-medium">Toppings y aderezos ilimitados</p>
                     </div>
                 </div>
-                <div className="bg-[url(/img-mobile/top-product-5.png)] bg-cover rounded-2xl card-product relative">
+                <div className="bg-[url(/img-mobile/elote-simple.png)] bg-cover rounded-2xl card-product relative">
                     <div className="absolute bottom-5 left-2 g:bottom-6 lg:left-6">
-                        <h3 className="text-white font-bold text-2xl lg:mb-2">Elote cup</h3>
-                        <p className="text-white font-medium">Toppings locos para elote</p>
+                        <h3 className="text-white font-bold text-2xl lg:mb-2">Elote Entero</h3>
+                        <p className="text-white font-medium">2 toppings 2 aderezos</p>
                     </div>
                 </div>
                 <div className="bg-[url(/img-mobile/top-product-6.png)] bg-cover rounded-2xl card-product relative">
