@@ -32,7 +32,6 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "The Elote Co",
   description: "Página de elote",
-  charset: "utf-8",
 };
 
 export default function RootLayout({ children }) {
