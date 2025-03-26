@@ -15,7 +15,7 @@ export default function Main() {
                 </div>
                 <div className="md:order-1 md:mt-10 md:ml-10 lg:ml-20">
                     <h1 className="text-black-elote font-bold text-5xl mb-2 md:text-4xl lg:text-6xl text-center md:text-left lg:mb-10 md:mt-10 lg:mt-0 xl:w-fit">The Elote Co</h1>
-                    <p className="text-center lg:text-2xl md:w-3/2 md:text-start font-bold text-black-elote px-3 lg:mb-5 md:mb-5 xl:w-1/2 text-2xl">Creamos experiencias deliciosas.</p>
+                    <p className="text-center md:w-3/2 lg:w-full lg:text-5xl md:text-start font-bold text-black-elote px-3 lg:mb-5 md:mb-5 text-2xl">Creamos experiencias deliciosas.</p>
                 </div>
             </section>
         </div>

@@ -43,7 +43,7 @@ const Slider = () => {
   const handlePrev = () => setActive((prev) => (prev - 1 >= 0 ? prev - 1 : prev));
 
   return (
-    <div className="slider mt-10" ref={sliderRef}>
+    <div className="slider xl:mt-40 mt-10" ref={sliderRef}>
             <div className="item relative">
                 <span className='font-bold text-black-elote absolute comas'>,,</span>
                 <span className='w-1/2 h-5 flex justify-center m-auto'>
