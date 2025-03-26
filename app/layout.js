@@ -1,5 +1,5 @@
 import { GoogleTagManager } from '@next/third-parties/google';
-import { Montserrat, Montserrat } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import localFont from 'next/font/local';
 import "./globals.css";
 
