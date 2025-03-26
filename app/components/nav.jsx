@@ -50,7 +50,8 @@ export default function Nav() {
             <ul className="menuppal pt-40">
                 <li className="mb-10 w-fit m-auto"><a href="#main" className="text-white text-center font-bold text-2xl">Inicio</a></li>
                 <li className="mb-10 w-fit m-auto"><a href="#aboutus" className="text-white text-center font-bold text-2xl">Sobre Nosotros</a></li>
-                <li className="mb-10 w-fit m-auto"><a href="#topproducts" className="text-white text-center font-bold text-2xl">Top The Elote Co</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#contactme" className="text-white text-center font-bold text-2xl">Servicios</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#topproducts" className="text-white text-center font-bold text-2xl">The Elote Co. Top</a></li>
                 <li className="mb-10 w-fit m-auto"><a href="#sucursales" className="text-white text-center font-bold text-2xl">Sucursales</a></li>
                 <li className="mb-10 w-fit m-auto"><a href="#menu" className="text-white text-center font-bold text-2xl">Menú</a></li>
             </ul>
@@ -60,14 +61,14 @@ export default function Nav() {
             <ul className="flex">
                 <li className="mx-1 lg:mx-5 font-bold"><a href="#main">Inicio</a></li>
                 <li className="mx-1 lg:mx-5 font-bold"><a href="#aboutus">Sobre nosotros</a></li>
-                <li className="mx-1 lg:mx-5 font-bold"><a href="#servicios">Servicios</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a href="#contactme">Servicios</a></li>
             </ul>
             <Image src="/img-mobile/logo.png" width={70} height={70} className="mx-3 md:mx-2 lg:mx-3 md:relative top-4" alt="logo The Elote Co"/>
             <ul className="flex">
-                <li className="mx-1 lg:mx-5 font-bold"><a href="#topproducts">Top TehEloteCo</a></li>
+                <li className="mx-1 lg:mx-5 font-bold"><a href="#topproducts">The Elote Co. Top</a></li>
                 <li className="mx-1 lg:mx-5 font-bold"><a href="#sucursales">Sucursales</a></li>
                 <li className="mx-1 lg:mx-5 font-bold"><a href="#menu">Menú</a></li>
-                <li className="mx-1 lg:mx-5 font-bold bg-red-elote p-1 rounded-2xl px-4 text-white"><a>Cotizar</a></li>
+                <li className="mx-1 lg:mx-5 font-bold bg-red-elote p-1 rounded-2xl px-4 text-white"><a href="#contactme">Cotizar</a></li>
             </ul>
         </nav>
         </>

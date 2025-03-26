@@ -17,14 +17,14 @@ export default function Footer() {
             <div className="my-5 lg:order-2 lg:mx-5">
                 <h3 className="text-white font-bold text-2xl text-center mb-4">Sucursales:</h3>
                 <div className="flex mb-5">
-                    <a href="https://maps.app.goo.gl/wcb6UWy7eRmxU6nh7" target="_blank" className="flex">
+                    <a href="https://maps.app.goo.gl/SLgWVWkQqfrSdUny8" target="_blank" className="flex">
                     <Image src="/icons/maps.svg" className="mr-2" width={20} height={20} alt="icon maps" />
                     <p className="text-white">Sucursal San Jerónimo</p>
                     </a>
                 </div>
                 <div className="flex">
                     
-                    <a href="https://maps.app.goo.gl/hzXwzcQW7nTSDJJr9" target="_blank" className="flex">
+                    <a href="https://maps.app.goo.gl/JwxGRP9Qf8YDHxGX9" target="_blank" className="flex">
                         <Image src="/icons/maps.svg" className="mr-2" width={20} height={20} alt="icon maps" />
                         <p className="text-white">Sucursal San Pedro</p>
                     </a>
@@ -32,13 +32,12 @@ export default function Footer() {
             </div>
             <div className="text-center lg:order-1 lg:mx-5">
                 <p className="text-white mb-2">Terminos y condiciones.</p>
-                <p className="text-white mb-2">Teléfono: +52 8128879985</p>
-                <p className="text-white mb-2">theeloteco23@gmail.com</p>
+                <p className="text-white mb-2">Teléfono: <span>+52 8128879985</span></p>
+                <p className="text-white mb-2"><span>theeloteco23@gmail.com</span></p>
                 <p className="text-white mb-10">Todos los derechos<br/> reservados por el autor.</p>
             </div>
             <div className="w-full bg-[url(/img-mobile/bg-footer.png)] lg:bg-[url(/img-desktop/bg-footer.png)] py-20 footer bg-no-repeat bg-cover flex flex-col items-center justify-center lg:order-4">
-            <Image src="/img-mobile/logo-white.png" width={200} height={200} alt="logo The Elote Co" className=""/>
-            <p className="mt-2 text-white text-4xl font-bold">The Elote Co.</p>
+            <Image src="/img-mobile/vamos-elote.png" width={300} height={300} alt="logo The Elote Co" className="m-auto"/>
             </div>
         </footer>
     )

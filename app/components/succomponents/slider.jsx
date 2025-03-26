@@ -92,7 +92,7 @@ const Slider = () => {
                     <Image src="/icons/start.svg" alt="background header" width={0}
                     height={0} sizes="100vw" style={{ width: "100%", height: "auto" }}/>
                 </span>
-                <p className='mt-5'>Genial el espacio, buen servicio del personal y excelente ubicación. Recomiendo al 100!</p>
+                <p className='mt-5'>Genial el espacio, buen servicio del personal y excelente ubicación. Recomiendo al <span>100!</span></p>
                 <h3 className='font-bold text-center mt-5'>-Alessandro do Vale "Alex"-</h3>
             </div>
             <div className="item relative">

@@ -1,7 +1,7 @@
 
 export default function Menu() {
     return(
-      <section className="bg-[url(/img-mobile/bg.menu.png)] lg:bg-[url(/img-desktop/bg.menu.png)] bg-no-repeat bg-cover  text-white md:py-10 py-4 mt-10 lg:bg-cover" id="menu">
+      <section className="bg-[url(/img-mobile/bg.menu.png)]  bg-no-repeat bg-cover  text-white md:py-10 py-4 mt-10 lg:bg-cover" id="menu">
         <div className="lg:flex lg:flex-col lg:items-center lg:justify-center">
             <div className="text-center">
                 <h3 className="font-bold text-4xl py-4">Menú</h3>
@@ -55,37 +55,37 @@ export default function Menu() {
                     <li className="flex ">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">ELOTE ENTERO</h5>
-                            <p className="font-medium text-xs">2 toppings + 2 aderezos</p>
+                            <p className="font-medium text-xs"><span>2</span> toppings + <span>2</span> aderezos</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl w-1/3" >$70</p>
+                            <span className="font-bold text-xl w-1/3" >$70</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">ELOTE CUP CHICO</h5>
-                            <p className="font-medium text-xs">2 toppings + 2 aderezos</p>
+                            <p className="font-medium text-xs"><span>2</span> toppings + <span>2</span> aderezos</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$65</p>
+                            <span className="font-bold text-xl">$65</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">ELOTE CUP MED</h5>
-                            <p className="font-medium text-xs">3 toppings + 3 aderezos</p>
+                            <p className="font-medium text-xs"><span>3</span> toppings + <span>3</span> aderezos</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$70</p>
+                            <span className="font-bold text-xl">$70</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">ELOTE CUP GRANCE</h5>
-                            <p className="font-medium text-xs">4 toppings + 4 aderezos</p>
+                            <p className="font-medium text-xs"><span>4</span> toppings + <span>4</span> aderezos</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$80</p>
+                            <span className="font-bold text-xl">$80</span>
                         </div>
                     </li>
                     <li className="flex">
@@ -94,7 +94,7 @@ export default function Menu() {
                             <p className="font-medium text-xs">toppings y aderezos ilimitados</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$100</p>
+                            <span className="font-bold text-xl">$100</span>
                         </div>
                     </li>
                     <li className="flex">
@@ -103,7 +103,7 @@ export default function Menu() {
                             <p className="font-medium text-xs">toppings y aderezos ilimitados</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$115</p>
+                            <span className="font-bold text-xl">$115</span>
                         </div>
                     </li>                     
                 </ul>
@@ -114,52 +114,52 @@ export default function Menu() {
                              <p className="font-medium text-xs">toppings y aderezos ilimitados</p>
                             </div>
                         <div className="w-1/3">
-                                <p className="font-bold text-xl">$265</p>
+                                <span className="font-bold text-xl">$265</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">ELOTE BOWL GRANDE</h5>
-                            <p className="font-medium text-xs">toppings y aderezos ilimitados</p>
+                            <span className="font-medium text-xs">toppings y aderezos ilimitados</span>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$515</p>
+                            <span className="font-bold text-xl">$515</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT CUP CHICO</h5>
-                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
+                            <p className="font-medium text-xs"><span>2</span> toppings y <span>2</span> aderezos a elegir</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$395</p>
+                            <span className="font-bold text-xl">$395</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT BOX CHICO</h5>
-                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
+                            <p className="font-medium text-xs"><span>2</span> toppings y <span>2</span> aderezos a elegir</p>
                         </div>
                         <div>
-                            <p className="font-bold text-xl">$455</p>
+                            <span className="font-bold text-xl">$455</span>
                         </div>
                     </li>
                     <li className="flex">
                          <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT CUP GRANDE</h5>
-                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
+                            <p className="font-medium text-xs"><span>2</span> toppings y <span>2</span> aderezos a elegir</p>
                         </div>
                         <div>
-                             <p className="font-bold text-xl">$765</p>
+                             <span className="font-bold text-xl">$765</span>
                         </div>
                     </li>
                     <li className="flex">
                         <div className="w-2/3">
                             <h5 className=" font-bold text-base">KIT BOX GRANDE</h5>
-                            <p className="font-medium text-xs">2 toppings y 2 aderezos a elegir</p>
+                            <p className="font-medium text-xs"><span>2</span> toppings y <span>2</span> aderezos a elegir</p>
                         </div>
                         <div >
-                             <p className="font-bold text-xl">$885</p>
+                             <span className="font-bold text-xl">$885</span>
                         </div>
                     </li>               
                 </ul>

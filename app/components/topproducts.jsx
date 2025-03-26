@@ -6,19 +6,19 @@ export default function TopProducts() {
                 <div className="bg-[url(/img-mobile/top-product-1.png)] bg-cover rounded-2xl card-product relative">
                     <div className="absolute bottom-2 left-2 lg:bottom-6 lg:left-6">
                         <h3 className="text-white font-bold text-2xl lg:mb-2">Elote Cup CH</h3>
-                        <p className="text-white font-medium">2 toppings 2 aderezos</p>
+                        <p className="text-white font-medium"><span>2</span> toppings <span>2</span> aderezos</p>
                     </div>
                 </div>
                 <div className="bg-[url(/img-mobile/top-product-2.png)] bg-cover rounded-2xl card-product relative">
                     <div className="absolute bottom-5 left-2 g:bottom-6 lg:left-6">
                         <h3 className="text-white font-bold text-2xl lg:mb-2">Elote Cup G</h3>
-                        <p className="text-white font-medium">4 toppings 4 aderezos</p>
+                        <p className="text-white font-medium"><span>4</span> toppings <span>4</span> aderezos</p>
                     </div>
                 </div>
                 <div className="bg-[url(/img-mobile/top-product-3.png)] bg-cover rounded-2xl card-product relative">
                     <div className="absolute bottom-5 left-2 g:bottom-6 lg:left-6">
                         <h3 className="text-white font-bold text-2xl lg:mb-2">Elote Cup M</h3>
-                        <p className="text-white font-medium">3 toppings 3 aderezos</p>
+                        <p className="text-white font-medium"><span>3</span> toppings <span>3</span> aderezos</p>
                     </div>
                 </div>
                 <div className="bg-[url(/img-mobile/top-product-4.png)] bg-cover rounded-2xl card-product relative">
@@ -30,7 +30,7 @@ export default function TopProducts() {
                 <div className="bg-[url(/img-mobile/elote-simple.png)] bg-cover rounded-2xl card-product relative">
                     <div className="absolute bottom-5 left-2 g:bottom-6 lg:left-6">
                         <h3 className="text-white font-bold text-2xl lg:mb-2">Elote Entero</h3>
-                        <p className="text-white font-medium">2 toppings 2 aderezos</p>
+                        <p className="text-white font-medium"><span>2</span> toppings <span>2</span> aderezos</p>
                     </div>
                 </div>
                 <div className="bg-[url(/img-mobile/top-product-6.png)] bg-cover rounded-2xl card-product relative">

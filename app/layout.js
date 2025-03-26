@@ -1,26 +1,38 @@
-import { GoogleTagManager } from '@next/third-parties/google'
-import { Geist, Geist_Mono, Gayathri } from "next/font/google";
+import { GoogleTagManager } from '@next/third-parties/google';
+import { Montserrat, Montserrat } from 'next/font/google'
+import localFont from 'next/font/local';
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const Antipasto = localFont({
+  src: [
+    {
+      path: '../public/fonts/Antipasto-Pro-ExtraBold-trial.ttf',
+      weight: '900',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Antipasto-Pro-ExtraLight-trial.ttf',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: '../public/fonts/Antipasto-Pro-Regular-trial.ttf',
+      weight: '700',
+      style: 'normal',
+    },   
+  ],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const gayathri = Gayathri({
-  display: "swap",
-  weight: '400',
-  subsets: ["latin"]
+const montserrat = Montserrat({
+  weights: [400, 700],
+  subsets: ['latin'],
+  display: 'swap',
 })
 
 export const metadata = {
   title: "The Elote Co",
   description: "Página de elote",
+  charset: "utf-8",
 };
 
 export default function RootLayout({ children }) {
@@ -28,7 +40,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <GoogleTagManager gtmId="GTM-5GF7DKFR"/>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${gayathri.variable} antialiased`}
+        className={`${Antipasto.className} ${montserrat.className}`}
       >
         {children}
       </body>

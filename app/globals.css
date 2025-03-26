@@ -34,6 +34,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Antipasto";
+  font-weight: 800;
+  font-variant-numeric: lining-nums; /* Usa números normales */
+  font-feature-settings: 'lnum' 1; /* Activa números lineales */
+}
+
+
+p,a,div,li,ul{
+  font-family: "Antipasto";
+  font-weight: 400;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: 'lnum' 1; /* Activa números lineales */ /* Usa números normales */
+}
+
+span{
+  font-family: "Montserrat";
+  font-weight: 500;
+}
 @theme {
   --color-red-elote: #9A171C;
   --color-yellow-elote: #DD9B2A;
@@ -276,8 +295,9 @@ body {
 }
 
 .comas{
-  bottom: -120px;
-  right: -20px;
+  bottom: -80px;
+  letter-spacing: -30px;
+  right: -5px;
   font-family: "Gayathri", sans-serif;
   font-size: 200px;
 }
