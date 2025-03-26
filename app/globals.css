@@ -51,7 +51,7 @@ p,a,div,li,ul{
 
 span{
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 400;
 }
 @theme {
   --color-red-elote: #9A171C;
@@ -295,9 +295,8 @@ span{
 }
 
 .comas{
-  bottom: -80px;
-  letter-spacing: -30px;
-  right: -5px;
+  bottom: -120px;
+  right: -20px;
   font-family: "Gayathri", sans-serif;
   font-size: 200px;
 }

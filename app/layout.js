@@ -1,5 +1,5 @@
 import { GoogleTagManager } from '@next/third-parties/google';
-import { Montserrat } from 'next/font/google'
+import { Montserrat, Gayathri } from 'next/font/google'
 import localFont from 'next/font/local';
 import "./globals.css";
 
@@ -29,6 +29,12 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
+const gayathri = Gayathri({
+  display: "swap",
+  weight: '400',
+  subsets: ["latin"]
+})
+
 export const metadata = {
   title: "The Elote Co",
   description: "Página de elote",
@@ -39,7 +45,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <GoogleTagManager gtmId="GTM-5GF7DKFR"/>
       <body
-        className={`${Antipasto.className} ${montserrat.className}`}
+        className={`${Antipasto.className} ${montserrat.className} ${gayathri.className}`}
       >
         {children}
       </body>
