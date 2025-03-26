@@ -48,11 +48,11 @@ export default function Nav() {
             </div>
 
             <ul className="menuppal pt-40">
-                <li className="mb-10"><a href="#main" className="text-white text-center font-bold text-2xl">Inicio</a></li>
-                <li className="mb-10"><a href="#aboutus" className="text-white text-center font-bold text-2xl">Sobre Nosotros</a></li>
-                <li className="mb-10"><a href="#topproducts" className="text-white text-center font-bold text-2xl">Top The Elote Co</a></li>
-                <li className="mb-10"><a href="#sucursales" className="text-white text-center font-bold text-2xl">Sucursales</a></li>
-                <li className="mb-10"><a href="#menu" className="text-white text-center font-bold text-2xl">Menú</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#main" className="text-white text-center font-bold text-2xl">Inicio</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#aboutus" className="text-white text-center font-bold text-2xl">Sobre Nosotros</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#topproducts" className="text-white text-center font-bold text-2xl">Top The Elote Co</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#sucursales" className="text-white text-center font-bold text-2xl">Sucursales</a></li>
+                <li className="mb-10 w-fit m-auto"><a href="#menu" className="text-white text-center font-bold text-2xl">Menú</a></li>
             </ul>
         </nav>
 

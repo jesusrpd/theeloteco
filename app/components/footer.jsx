@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             <div className="text-center lg:order-1 lg:mx-5">
                 <p className="text-white mb-2">Terminos y condiciones.</p>
-                <p className="text-white mb-2">Teléfono: +52 18128879985</p>
+                <p className="text-white mb-2">Teléfono: +52 8128879985</p>
                 <p className="text-white mb-2">theeloteco23@gmail.com</p>
                 <p className="text-white mb-10">Todos los derechos<br/> reservados por el autor.</p>
             </div>
