@@ -78,6 +78,11 @@ span{
 .logo-mobile{
   z-index: 1000;
 }
+
+#modal{
+  background: rgba(0,0,0,.5);
+}
+
 .hamburger{
 
   background-color:transparent;

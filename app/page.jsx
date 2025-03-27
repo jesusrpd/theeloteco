@@ -7,6 +7,7 @@ import AboutUs from "./components/aboutus";
 import Sucursales from "./components/sucursales";
 import TopProducts from "./components/topproducts";
 import Menu from "./components/menu";
+import Modal from "./components/succomponents/modal";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
         <a href="https://wa.me/8128879985/?text=¡Hola!%20Quiero%20un%20elote" target="_blank">
           <Image src="/icons/whatsapp.svg" alt="background header" width={70} height={70} className="fixed right-3 top-11/12 z-50"/>
         </a>
+
+        <Modal/>
 
         <Nav/>
         

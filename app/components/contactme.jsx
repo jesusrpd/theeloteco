@@ -17,6 +17,7 @@ export default function ContactMe() {
 
     const [notification, setNotification] = useState(false)
     const [loading, setLoading] = useState(false)
+    const [advise, setAdvise] = useState(false);
     const {register, formState:{errors}, handleSubmit} = useForm({
         resolver: yupResolver(schema)
     })
@@ -43,10 +44,10 @@ export default function ContactMe() {
     const sendFeedback = (templateID, variables) => {
         emailjs.send('service_5c0uop5', templateID, variables)
         .then(res => {
-            setNotification(true)
+          setLoading(false)
+            setAdvise(true)
             setTimeout(() => {
-                setNotification(false)
-                setLoading(false)
+              setAdvise(false)
             },3000)
         })
         .catch( err => {
@@ -58,11 +59,15 @@ export default function ContactMe() {
     return(
       <section className="mt-10 px-4 lg:px-10" id="contactme">
         <div className="bg-red-elote rounded-3xl pt-5 lg:flex lg:items-center">
+          {advise?<div className="bg-green-700 text-white p-5 fixed z-50 top-1/2
+           right-0 rounded-2xl">
+            <p className="text-2xl font-bold">Tus datos se han envíado correctamente.</p>
+          </div>:null}
           <div className="order-2">
             <h2 className="text-white text-center text-3xl px-2 mb-5 lg:text-left font-bold">Vamos Por un Elote a tu evento, contáctanos</h2>
-            <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0">Lorem ipsum dolor sit amet consectetur. Ornare porgitttitor dolor eu mollis sed. Commodo feugiat amet in quis volutpat. Eros pellentesque nibh risus sit nam. </p>
+            <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0 md:text-2xl">Siempre presentes en los mejores momentos, porque sin elote no hay fiesta.</p>
             <br/>
-            <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0">Lorem ipsum dolor sit amet consectetur. Ornare porttitor dolor eu mollis sed. Commodo feugiat amet in quis volutpat. Eros pellentesque nibh risus sit nam. </p>
+            <p className="text-white font-medium text-justify leading-9 px-6 lg:pl-0 md:text-2xl">Déjanos tus datos, te contactaremos para responder todas tus dudas y brindarte una cotización personalizada.</p>
           </div>
 
           <div className="w-full mt-5 lg:order-1">

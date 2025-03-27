@@ -16,12 +16,6 @@ export default function Footer() {
             </div>
             <div className="my-5 lg:order-2 lg:mx-5">
                 <h3 className="text-white font-bold text-2xl text-center mb-4">Sucursales:</h3>
-                <div className="flex mb-5">
-                    <a href="https://maps.app.goo.gl/SLgWVWkQqfrSdUny8" target="_blank" className="flex">
-                    <Image src="/icons/maps.svg" className="mr-2" width={20} height={20} alt="icon maps" />
-                    <p className="text-white">Sucursal San Jerónimo</p>
-                    </a>
-                </div>
                 <div className="flex">
                     
                     <a href="https://maps.app.goo.gl/JwxGRP9Qf8YDHxGX9" target="_blank" className="flex">
@@ -29,10 +23,16 @@ export default function Footer() {
                         <p className="text-white">Sucursal San Pedro</p>
                     </a>
                 </div>
+                <div className="flex mb-5">
+                    <a href="https://maps.app.goo.gl/SLgWVWkQqfrSdUny8" target="_blank" className="flex">
+                    <Image src="/icons/maps.svg" className="mr-2" width={20} height={20} alt="icon maps" />
+                    <p className="text-white">Sucursal San Jerónimo</p>
+                    </a>
+                </div>
             </div>
             <div className="text-center lg:order-1 lg:mx-5">
                 <p className="text-white mb-2">Terminos y condiciones.</p>
-                <p className="text-white mb-2">Teléfono:+<span>52 8128879985</span></p>
+                <span className="text-white mb-2">Teléfono:+<span>52 8128879985</span></span>
                 <p className="text-white mb-2"><span>theeloteco23@gmail.com</span></p>
                 <p className="text-white mb-10">Todos los derechos<br/> reservados por el autor.</p>
             </div>
