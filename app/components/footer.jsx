@@ -32,8 +32,7 @@ export default function Footer() {
             </div>
             <div className="text-center lg:order-1 lg:mx-5">
                 <p className="text-white mb-2">Terminos y condiciones.</p>
-                <span className="text-white mb-2" id="tel">Teléfono:<span>+ 52 8128879985</span></span>
-                <span className="text-white block">+8128879985.</span>
+                <span className="text-white mb-2" id="tel">Teléfono: +52-81-28-87-99-85.</span>
                 <p className="text-white mb-2"><span>theeloteco23@gmail.com</span></p>
                 <p className="text-white mb-10">Todos los derechos<br/> reservados por el autor.</p>
             </div>
