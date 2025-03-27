@@ -31,7 +31,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="text-center lg:order-1 lg:mx-5">
-                <p className="text-white mb-2">Terminos y condiciones.</p>
+                <p className="text-white mb-2"> <a href="/cookies">Terminos y condiciones.</a></p>
                 <p className="text-white mb-2"><span>theeloteco23@gmail.com</span></p>
                 <p className="text-white mb-2">Todos los derechos<br/> reservados por el autor.</p>
                 <span className="text-white">Teléfono: +528128</span><span className="text-white">879985.</span>

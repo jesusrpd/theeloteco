@@ -8,6 +8,7 @@ import Sucursales from "./components/sucursales";
 import TopProducts from "./components/topproducts";
 import Menu from "./components/menu";
 import Modal from "./components/succomponents/modal";
+import Cookie from "./components/succomponents/cookie";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         </a>
 
         <Modal/>
+
+        <Cookie/>
 
         <Nav/>
         
