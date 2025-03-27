@@ -58,7 +58,7 @@ export default function ContactMe() {
 
     return(
       <section className="mt-10 px-4 lg:px-10" id="contactme">
-        <div className="bg-red-elote rounded-3xl pt-5 lg:flex lg:items-center">
+        <div className="bg-red-elote rounded-3xl pt-5 lg:flex lg:items-center pb-5">
           {advise?<div className="bg-green-700 text-white p-5 fixed z-50 top-1/2
            right-0 rounded-2xl">
             <p className="text-2xl font-bold">Tus datos se han envíado correctamente.</p>
@@ -86,19 +86,11 @@ export default function ContactMe() {
                 <span className="loader"></span>
               </div>:null}
             </form>
-            <div className="p-2 max-lg:hidden lg:w-11/12 m-auto">
-              <Image src="/img-mobile/banner-evento.png" alt="banner tecate" width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} className="rounded-2xl"/>
-            </div>
           </div>
-          <video autoPlay muted loop className="w-11/12 md:w-1/2 lg:w-2/12  m-auto rounded-2xl border-2 lg:order-3 border-white lg:mr-5" width="320" height="240" controls preload="none">
+          <video autoPlay muted loop className="w-11/12 md:w-1/2 lg:w-2/12  m-auto rounded-2xl border-2 lg:order-3 border-white lg:mr-5 mb-5" width="320" height="240" controls preload="none">
           <source src="/videos/eventos.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="p-2 lg:hidden">
-          <a href="https://www.tecatepalnorte.com/lineup" target="_blank">
-          <Image src="/img-mobile/banner-evento.png" alt="banner tecate" width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} className="rounded-2xl"/>
-          </a>
-        </div>
         </div>
       </section>
     )
