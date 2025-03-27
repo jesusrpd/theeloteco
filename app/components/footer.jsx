@@ -35,7 +35,7 @@ export default function Footer() {
                 <span className="text-white mb-2 font-mono" id="tel">Teléfono: +52-81-28-87-99-85.</span>
                 <p className="text-white mb-2"><span>theeloteco23@gmail.com</span></p>
                 <p className="text-white mb-10">Todos los derechos<br/> reservados por el autor.</p>
-                <span className="text-white">+528128.</span>
+                <span className="text-white">+52812887.</span>
             </div>
             <div className="w-full bg-[url(/img-mobile/bg-footer.png)] lg:bg-[url(/img-desktop/bg-footer.png)] py-20 footer bg-no-repeat bg-cover flex flex-col items-center justify-center lg:order-4">
             <Image src="/img-mobile/vamos-elote.png" width={300} height={300} alt="logo The Elote Co" className="m-auto"/>
