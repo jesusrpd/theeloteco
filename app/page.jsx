@@ -18,8 +18,6 @@ export default function Home() {
           <Image src="/icons/whatsapp.svg" alt="background header" width={70} height={70} className="fixed right-3 top-11/12 z-50"/>
         </a>
 
-        <Modal/>
-
         <Cookie/>
 
         <Nav/>
